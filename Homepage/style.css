@@ -1,0 +1,210 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+@import url('https://fonts.cdnfonts.com/css/svn-gilroy');
+
+body{
+    font-family: 'SVN-Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+	color: #002A48;
+
+    width: 100%;
+    /* max-width: 1440px; */
+}
+
+/* Header */
+
+.header{
+    background: url("../images/HerroBanner.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 28px 130px;
+}
+
+.menu__logo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.menu__logo span{
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+
+    text-align: center;
+}
+
+.menu__link{
+    display: flex;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+.menu__link a{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+
+    color: #002A48;
+}
+
+.menu__btns{
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
+
+.menu__search{
+    position: relative;
+}
+
+.menu__search input{
+    display: flex;
+    width: 280px;
+    padding: 12px 20px 12px 38px;
+    align-items: center;
+    gap: 12px;
+
+    font-family: 'SVN-Gilroy', sans-serif;
+    color:  #99A2A5;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+
+    border-radius: 46px;
+}
+
+.menu__search input::placeholder{
+    font-family: 'SVN-Gilroy', sans-serif;
+    color:  #99A2A5;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.menu__search img{
+    position: absolute;
+    top: 13px;
+    left: 15px;
+    z-index: 1;
+
+    cursor: pointer;
+}
+
+.menu__btn{
+    display: flex;
+    height: 44px;
+    padding: 12px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 57px;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    color: #FDFDFD;
+    border: 1.5px solid #003459;
+    background: #003459;
+}
+.menu__btn:hover{
+    border: 1.5px solid #003459;
+    background-color:   transparent;
+    color: #002A48;
+}
+
+
+.header__title{
+    display: flex;
+    flex-direction: column;
+
+    padding: 80px 130px 205px;
+}
+
+.header__title-p{
+    width: 480px;
+    padding-top: 24px;
+    padding-bottom: 34px;
+    color:#242B33;
+
+    font-family: 'SVN-Gilroy', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.header__title-btn{
+    display: flex;
+    gap: 20px;
+}
+
+.header__title-btn button{
+    font-family: 'SVN-Gilroy', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+
+    padding: 14px 28px;
+    border-radius: 57px;
+    width: 163px;
+    color:#FDFDFD;
+    border: 1.5px solid #003459;
+    background-color: #002A48;
+}
+
+.header__title-btn button:hover{
+    border: 1.5px solid #003459;
+    background-color:   transparent;
+    color: #002A48;
+}
+
+h1{
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 68px;
+
+    color:#002A48;
+    text-transform: capitalize;
+}
+
+h2{
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+
+    color:#002A48;
+    text-transform: capitalize;
+}
