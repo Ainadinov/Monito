@@ -208,3 +208,63 @@ h2{
     color:#002A48;
     text-transform: capitalize;
 }
+
+/* Banner */
+.banner{
+    background: url("../images/Banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 64px 85px 56px 0;
+}
+
+.banner__title{
+    display: flex;
+    flex-direction: column;
+
+    padding: 80px 130px 205px;
+}
+
+.banner__title-p{
+    text-align: right;
+    width: 480px;
+    padding-top: 24px;
+    padding-bottom: 34px;
+    color:#242B33;
+
+    font-family: 'SVN-Gilroy', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.banner__title-btn{
+    display: flex;
+    gap: 20px;
+}
+
+.banner__title-btn button{
+    font-family: 'SVN-Gilroy', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+
+    padding: 14px 28px;
+    border-radius: 57px;
+    width: 163px;
+    color:#FDFDFD;
+    border: 1.5px solid #003459;
+    background-color: #002A48;
+}
+
+.banner__title-btn button:hover{
+    border: 1.5px solid #003459;
+    background-color:   transparent;
+    color: #002A48;
+}
