@@ -680,6 +680,11 @@ h2{
     background: #FFF;
 }
 
+.footer__send-input input.error {
+    border-color: red;
+    color: red;
+}
+
 .footer__send-input button{
     display: flex;
     padding: 10px 28px 10px 28px;
